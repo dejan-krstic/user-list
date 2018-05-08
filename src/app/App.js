@@ -9,7 +9,6 @@ const App = (props) => {
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/about' component={About}/>
-            {/* <Route path='/details/:id' component={Details}/> */}
         </Switch>
     )
 }

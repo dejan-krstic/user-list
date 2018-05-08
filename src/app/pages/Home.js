@@ -8,7 +8,6 @@ import Search from '../partials/Search';
 import LoadingAnimation from '../partials/LoadingAnimation';
 import Message from '../partials/Message';
 import calculateUpdateDuration from '../../shared/helperFunctions'
-// import User from '../entities/User.js';    //recreating User objects after JSON.stringify/parse so they could have methods - abandoned solution
 
 
 class Home extends Component {
@@ -59,8 +58,7 @@ class Home extends Component {
         }
       })
       })
-      // .then(() =>{ this.genderStats()
-      // console.log(this.state.maleFemale)})
+
 }
 
   componentMount() {
@@ -119,10 +117,8 @@ class Home extends Component {
       isFemale(a, e);
       return a;
     },{female: 0, male: 0})
-    // this.setState({female, male})
     return stats;
   }
-  //  femaleMale = this.state.userArr.reduce(({}, e) => {
 
   maleFemaleDiv() {
     const mf = this.genderStats();
