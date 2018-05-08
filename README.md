@@ -1,6 +1,6 @@
 # User List 
 
-Supports refreshing and filtering users, also has option to change views (either list view or card view). Remembers state of the view option and last user refresh when closing and then reopening a browser.
+Supports refreshing and filtering users, also has option to change views (either list view or card view). Remembers state of the view option and last user refresh when closing and then reopening a browser. You can check out the app in a link bellow:
 
 [GH pages demo](https://dejan-krstic.github.io/user-list)
 
